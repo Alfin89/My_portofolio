@@ -2,7 +2,7 @@
 module.exports = {
   content: [
     "./dist/*.html",
-    "./dist/pages/*.html"
+    // "./dist/pages/*.html"
   ], // "./src/**/*.{html,js}" "./public/**/*.{html,js}", 
   theme: {
     container: {
