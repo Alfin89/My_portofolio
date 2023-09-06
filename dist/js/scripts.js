@@ -1,3 +1,9 @@
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // Jika Anda tidak ingin mengimpor CSS di HTML
+
+// Inisialisasi AOS
+AOS.init();
+
 // Hamburger
 const Hamburger = document.querySelector('#hamburger');
 const navMenu   = document.querySelector('#nav-menu')

@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+  <link href="/node_modules/aos/dist/aos.css" rel="stylesheet">
   <link href="css/output.css" rel="stylesheet">
 </head>
 <body class="">
@@ -58,7 +59,7 @@
           <a href="#" class="text-base lg:ml-11 text-white bg-green-400 hover:bg-green-500 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out py-3 px-8">Hubungi saya</a>
         </div>
         <div class="w-full self-end px-4 lg:w-1/2">
-          <div class="relative mt-10 lg:mt-9 lg:right-0">
+          <div class="relative mt-10 lg:mt-9 lg:right-0" data-aos="fade-left">
             <img src="image/logo1.png" width="400" height="400" alt="" class="max-w-full mx-auto ">
             <span class="absolute -bottom-0 -z-10 left-1/2 -translate-x-1/2 md:scale-125">
               <svg width="300" height="300" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
@@ -78,7 +79,7 @@
       <hr class="w-28 h-1 mx-auto bg-slate-500 border-0 rounded lg:w-40">
       <div class="grid lg:grid-cols-3 gap-4">
         <div class="w-full">
-          <div class="relative mt-7 lg:ml-11">
+          <div class="relative mt-7 lg:ml-11" data-aos="zoom-in-right">
             <img src="image/logo.png" width="200" height="200" alt="" class="lg:ml-11 lg:w-[370px] lg:h-[370px] mx-auto">
           </div>
         </div>
@@ -98,5 +99,9 @@
   </section>
   <!-- About section end -->
   <script src="js/scripts.js"></script>
+  <script src="/node_modules/aos/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>     
