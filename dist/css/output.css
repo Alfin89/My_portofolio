@@ -674,6 +674,10 @@ video {
   height: 5rem;
 }
 
+.h-9 {
+  height: 2.25rem;
+}
+
 .w-28 {
   width: 7rem;
 }
@@ -741,6 +745,11 @@ video {
 
 .rounded-lg {
   border-radius: 0.5rem;
+}
+
+.rounded-t-lg {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
 }
 
 .border-0 {
@@ -1010,6 +1019,10 @@ body {
 
   .lg\:mr-14 {
     margin-right: 3.5rem;
+  }
+
+  .lg\:mr-20 {
+    margin-right: 5rem;
   }
 
   .lg\:mt-16 {
